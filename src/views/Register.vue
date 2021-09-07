@@ -1,9 +1,11 @@
 <template>
-<div class="min-h-screen bg-no-repeat bg-cover bg-center"
+<div class="flex justify-center lg:justify-between md:justify-between sm:justify-between">
+	<div class="min-h-screen hidden sm:block md:block lg:block w-1/2 bg-no-repeat bg-cover bg-center"
 	style="background-image: url('https://images.unsplash.com/photo-1494412651409-8963ce7935a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')">
-	<div class="flex justify-end">
-		<div class="bg-white min-h-screen w-1/2 flex justify-center items-center">
-			<div>
+</div>
+	<div >
+	<div class="bg-white min-h-screen flex justify-center items-center sm:pr-16 md:pr-28 lg:pr-44">
+		<div >
 
 				<form>
 					<div>
@@ -27,18 +29,18 @@
 								<span class="text-sm text-fulk-dark hover:underline cursor-pointer">Forgot password?</span>
 							</div>
 							<div class="">
-								<button class="mt-4 mb-3 w-full bg-fulk-dark hover:bg-fulk-light text-white py-2 rounded-md transition duration-100">Login now</button>
+								<router-link to="/Account"><button class="mt-4 mb-3 w-full bg-fulk-dark hover:bg-fulk-light text-white py-2 rounded-md transition duration-100">Login now</button></router-link>
 								<div class="flex  space-x-2 justify-center items-end bg-fulk-dark hover:bg-fulk-light text-white py-2 rounded-md transition duration-100">
 
-            <img class=" h-5 cursor-pointer" src="https://i.imgur.com/arC60SB.png" alt="">
-									<button >Or sign-in with google</button>
+            <img class=" h-5 cursor-pointer" src="https://i.imgur.com/arC60SB.png" alt="Google">
+									<router-link to="/Account"><button >Or sign-in with google</button></router-link>
 								</div>
 							</div>
 				</form>
 				<p class="mt-8"> Dont have an account? <span class="cursor-pointer text-sm text-fulk-dark"> Join free today</span></p>
 			</div>
-		</div>
 	</div>
+</div>
 </div>
 </template>
 

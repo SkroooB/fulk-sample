@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-fulk-dark py-10 text-grayLight">
+  <div class="bg-fulk-dark py-5 sm:py-10 md:py-10 lg:py-10 text-grayLight">
       <div class="text-center pb-5">Follow us for updates</div>
       <div class="flex justify-center justify-items-center space-x-10 text-2xl text-grayLight">
           <a href="#">

@@ -1,8 +1,8 @@
 <template>
   <div class="bg-fulk-dark ">
-    <div class="text-center text-8xl font-bold py-20 text-white">
+    <div class="text-center text-4xl lg:text-8xl md:text-8xl font-bold py-20 text-white">
     <div>
-      <div class="flex justify-items-center justify-center space-x-5">
+      <div class="flex justify-items-center justify-center space-x-3 lg:space-x-5 md:space-x-5 sm:space-x-5">
         <h1>New</h1>
         <h1 class="text-fulk-light">cellular</h1>
         </div>

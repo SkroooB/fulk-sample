@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between px-10 bg-grayLight text-fulk-dark py-5">
-    <img class="h-9" src="@/assets/Fulk_logo.png" alt="Logo">
+  <div class="flex justify-between items-center px-2 lg:px-10 md:px-10 bg-grayLight text-fulk-dark py-5">
+    <router-link to="/"><img class="h-9" src="@/assets/Fulk_logo.png" alt="Logo"></router-link>
     <div class="flex space-x-5 items-center">
       <router-link class="transition duration-75 ease-in hover:text-fulk" to="/">Home</router-link>
       <router-link class="transition duration-75 ease-in hover:text-fulk" to="/Account">Account</router-link>
