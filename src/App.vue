@@ -12,6 +12,7 @@
       py-5
     "
   >
+  
     <router-link to="/"
       ><img class="h-9" src="@/assets/Fulk_logo.png" alt="Logo"
     /></router-link>
@@ -56,17 +57,16 @@
     </div>
   </div>
   <router-view />
+  <add-to-homescreen />
   <Footer />
-  <AddToHomeBtn />
 </template>
 
 <script>
 import Footer from "@/components/Footer.vue";
-import AddToHomeBtn from "@/components/AddToHomeBtn.vue";
+
 export default {
   components: {
     Footer,
-    AddToHomeBtn
   },
 };
 </script>
