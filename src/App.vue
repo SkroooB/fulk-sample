@@ -57,13 +57,16 @@
   </div>
   <router-view />
   <Footer />
+  <AddToHomeBtn />
 </template>
 
 <script>
 import Footer from "@/components/Footer.vue";
+import AddToHomeBtn from "@/components/AddToHomeBtn.vue";
 export default {
   components: {
     Footer,
+    AddToHomeBtn
   },
 };
 </script>
