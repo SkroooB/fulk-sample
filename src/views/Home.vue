@@ -21,17 +21,14 @@
             sm:space-x-5
           "
         >
-          <h1>New</h1>
-          <h1 class="text-fulk-light">cellular</h1>
+          <h1>One</h1>
+          <h1 class="text-fulk-light">Stop</h1>
         </div>
-        <h1>products</h1>
-        <h1>on the market</h1>
+        <h1>Shop</h1>
+        <h1>for sea shipping services</h1>
       </div>
       <p class="text-lg font-normal pt-8 px-10">
-        The future of animal products is right here. Safe food produced from
-        animal cells instead of slaughtered animals. We bring you the latest on
-        fermented and cultivated food products and news from cellular
-        agriculture companies.
+        Register now to list your company or your request
       </p>
       <div class="flex justify-items-center justify-center pt-10 space-x-14">
         <div>
